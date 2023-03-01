@@ -35,7 +35,8 @@ const UserDetails = () => {
 
 const Wrapper = styled.section`
   margin: 1rem 3.2rem;
-
+  width: 100%;
+  justify-content: space-between;
   .content ul {
     list-style-type: none !important;
     display: flex;
