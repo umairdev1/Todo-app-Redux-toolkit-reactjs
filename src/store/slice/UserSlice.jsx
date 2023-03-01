@@ -9,7 +9,9 @@ const userSlice = createSlice({
     removeUser(state, action) {
       state.splice(action.payload, 1);
     },
-    deleteUsers(state, action) {},
+    deleteUsers(state, action) {
+      return [];
+    },
   },
 });
 
